@@ -1,0 +1,57 @@
+*{
+    box-sizing:border-box ;
+    padding: 0;
+    margin: 0;
+}
+
+/* animazione card */
+.card:hover{
+    transform: scale(1.02);
+    box-shadow: 2px 3px 10px 0px #00000029;
+}
+
+/* immagine card */
+.card img{
+    height: 350px;
+    object-fit: cover;
+}
+
+/* descrizione card */
+.card-text{
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+
+/* bottone info */
+.inf{
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.491);
+}
+
+.inf:hover {
+    color: black;
+    transform: scale(1.1);
+}
+
+/* footer */
+#icon-social li {
+    font-size: 1.3rem;
+    list-style: none;
+    padding: 10px;
+}
+
+#icon-social li:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+#link-footer li{
+    list-style: none;
+    padding: 10px;
+}
+
+#link-footer li:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.627);
+}

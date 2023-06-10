@@ -1,0 +1,42 @@
+*{
+    box-sizing:border-box ;
+    padding: 0;
+    margin: 0;
+}
+
+/* immagine card */
+.card img{
+    height: 350px;
+    object-fit: cover;
+}
+
+/* descrizione card */
+.card-text{
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+
+/* icona modifica card */
+.mod i {
+    color: white;
+}
+
+/* btn modifica card */
+.mod{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.525);
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+/* pulsante modifica card */
+.mod:hover{
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+}
