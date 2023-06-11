@@ -8,6 +8,7 @@ const singInBtn = document.getElementById("sing-in-button");
 const inputEmail = document.getElementById("Input-Email");
 const inputPass = document.getElementById("Input-Password");
 const singInAlert = document.getElementById("alert-sing-in");
+const footer = document.getElementById("footer");
 
 /* avvio funzione prodotti al caricamneto della pagina */
 window.onload = AllProduct();
@@ -25,6 +26,7 @@ async function AllProduct() {
         json.forEach((element) => {
             createPostTemplate(element);
         });
+        footer.classList.remove("d-none");
     } catch(error) {
         console.log(error);
     }
