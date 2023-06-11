@@ -60,3 +60,46 @@ body{
     cursor: pointer;
     color: rgba(255, 255, 255, 0.627);
 }
+
+/* navbar per desktop */
+@media screen and (min-width: 576px){
+    #title{
+        font-weight: 400;
+        color: white;
+        display: block;
+        padding: 150px 0;
+        background-position: bottom;
+        background-image: url(https://static.zara.net/photos///contents/mkt/spots/ss23-north-man-new/subhome-xmedia-23//w/1920/IMAGE-landscape-fill-d7333672-c806-4136-b61c-de8a167a1f9d-default_0.jpg?ts=1686301557464);
+    }
+    #btn-login {
+        position: absolute;
+        right: 10px;
+        top: 12px;
+    }
+    #logo {
+        position: absolute;
+        left: 15px;
+        top: 5px;
+    }
+}
+
+/* navbar per dispositivi mobili */
+@media screen and (max-width: 575px){
+    nav {
+        background-color: #212529;      
+    }
+    #logo{
+        display: inline-block;
+    }
+    #btn-login{
+        position: absolute;
+        right: 0;
+    }
+    #title{
+        background-color: #212529;     
+        box-shadow: 0px 5px 10px 3px #212529;
+        color: white;
+        padding: 15px 10px;
+        font-size: 1.3rem;
+    }
+}
