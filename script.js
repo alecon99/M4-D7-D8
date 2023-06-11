@@ -98,6 +98,6 @@ singInBtn.addEventListener("click", ()=>{
 })
 
 function openAddCard(){
-    window.open("/index/addCard.html","_self")
+    window.open("addCard.html","_self")
 }
 
