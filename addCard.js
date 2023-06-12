@@ -81,6 +81,7 @@ function createPostTemplate(element){
 
 /* funzione aggiungi prodotto */
 async function addNewPost() {
+    console.log(priceValue);
     if(inputName.value && inputDescription.value && inputBrand.value && inputImage.value && inputPrice.value) {
         const payload = {
             "name": inputName.value,
